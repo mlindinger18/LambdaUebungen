@@ -11,5 +11,5 @@ package lambdauebungen;
  */
 public interface NumberTest {
 
-    boolean testnumber(int number);
+    boolean testNumber(int number);
 }
