@@ -5,10 +5,22 @@
  */
 package lambdauebungen;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Marcel.Lindinger
  */
 public class HalloJavaMitForEach {
+
+    List<String> strList = new ArrayList();
+
+    public void ohneLambda() {
+        for (int i = 0; i < strList.size(); i++) {
+            System.out.println(i);
+
+        }
+    }
 
 }
