@@ -28,4 +28,8 @@ public class HalloJavaMitForEach {
         strList.forEach((String s) -> System.out.println(s));
 
     }
+
+    public void methodenReferenz() {
+        strList.forEach(System.out::print);
+    }
 }
