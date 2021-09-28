@@ -21,6 +21,11 @@ public class HalloJavaMitForEach {
             System.out.println(i);
 
         }
+
     }
 
+    public void mitLambda() {
+        strList.forEach((String s) -> System.out.println(s));
+
+    }
 }
