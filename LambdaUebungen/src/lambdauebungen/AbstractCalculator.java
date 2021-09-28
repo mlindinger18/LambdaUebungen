@@ -9,7 +9,6 @@ package lambdauebungen;
  *
  * @author Marcel.Lindinger
  */
-public interface CalculationOperation {
+public class AbstractCalculator {
 
-    Number calc(Number x, Number y);
 }
